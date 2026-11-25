@@ -1,0 +1,13 @@
+{
+  "name": "rd-pl-0148-edge-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev src/worker.ts",
+    "deploy": "wrangler deploy src/worker.ts"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}

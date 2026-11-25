@@ -1,0 +1,7 @@
+name = "staging-edge"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+
+[[kv_namespaces]]
+binding = "EDGE_CACHE"
+id = "8f2c1a4e5b6d47c9a0e3f1b2c4d5e6f7"
